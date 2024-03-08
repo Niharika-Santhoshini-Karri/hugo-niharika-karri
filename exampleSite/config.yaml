@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: ""
+      url: "\exampleSite\static\Niharika_K_resume.pdf"
       download: true
       newPage: false
     socialLinks:
