@@ -166,7 +166,7 @@ params:
         - "Databases: SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau."
         - "Web Technologies: HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap."
         - "Tools and Services: Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat, Visual
- Studio Code, NetBeans, JIRA"
+ Studio Code, NetBeans, JIRA."
 
   # Experience
   experience:
