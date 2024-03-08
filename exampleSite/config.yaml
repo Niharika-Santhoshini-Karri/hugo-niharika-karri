@@ -165,8 +165,7 @@ params:
         - "Libraries: Pandas, SciPy, NumPy, Scikit-learn, Matplotlib, TensorFlow, PyTorch."
         - "Databases: SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau."
         - "Web Technologies: HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap."
-        - "Tools and Services: Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat, Visual
- Studio Code, NetBeans, JIRA."
+        - "Tools and Services: Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat."
 
   # Experience
   experience:
