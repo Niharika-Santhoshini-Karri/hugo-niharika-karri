@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: "#"
+      url: ""
       download: true
       newPage: false
     socialLinks:
