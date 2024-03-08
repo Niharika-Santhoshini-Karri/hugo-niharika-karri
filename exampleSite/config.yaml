@@ -134,7 +134,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: "\exampleSite\static\Niharika_K_resume.pdf"
+      url: "https://github.com/Niharika-Santhoshini-Karri/hugo-niharika-karri/blob/b1a795822d5517703b086d66ecd561b22227b7be/exampleSite/Niharika_K_resume.pdf"
       download: true
       newPage: false
     socialLinks:
