@@ -157,15 +157,13 @@ params:
     content: |-
       I am a software developer with a passion for web development. I have a background in Information Systems and mathematics, and I have a strong interest in the intersection of technology and art. I am currently doing my masters at Northeastern University, Boston.
       I worked as a programmer analyst at Cognizant, India for 1+ years.
-    skills:
-      enable: true
-      title: "Here is my tech stack:"
-      content: |-
-         Programming Languages - "Java, Python, C, C++.
-         Libraries - Pandas, SciPy, NumPy, Scikit-learn, Matplotlib, TensorFlow, PyTorch.
-         Databases - SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau.
-         Web Technologies - HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap.
-         Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
+      "Here is my tech stack:"
+      
+      Programming Languages - "Java, Python, C, C++.
+      Libraries - Pandas, SciPy, NumPy, Scikit-learn, Matplotlib, TensorFlow, PyTorch.
+      Databases - SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau.
+      Web Technologies - HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap.
+      Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
   # Experience
   experience:
