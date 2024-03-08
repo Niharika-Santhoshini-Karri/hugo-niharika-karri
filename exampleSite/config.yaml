@@ -160,12 +160,12 @@ params:
     skills:
       enable: true
       title: "Here is my tech stack:"
-      items:
-        - " Programming Languages: "Java, Python, C, C++."
-        - "Libraries: Pandas, SciPy, NumPy, Scikit-learn, Matplotlib, TensorFlow, PyTorch."
-        - "Databases: SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau."
-        - "Web Technologies: HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap."
-        - "Tools and Services: Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat."
+      content:
+         Programming Languages - "Java, Python, C, C++.
+         Libraries - Pandas, SciPy, NumPy, Scikit-learn, Matplotlib, TensorFlow, PyTorch.
+         Databases - SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau.
+         Web Technologies - HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap.
+         Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
   # Experience
   experience:
