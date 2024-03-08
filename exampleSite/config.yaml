@@ -135,7 +135,7 @@ params:
       enable: true
       name: "Download Resume"
       url: "https://raw.githubusercontent.com/Niharika-Santhoshini-Karri/hugo-niharika-karri/exampleSite/Niharika_K_resume.pdf"
-      # download: "Niharika_K_resume.pdf"
+      # download: Niharika_K_resume.pdf
       download : true
       newPage: false
     socialLinks:
