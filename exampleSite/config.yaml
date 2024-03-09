@@ -166,7 +166,7 @@ params:
       Databases - SQL (MySQL, Oracle, SQL Server), NoSQL (MongoDB), Power BI, Tableau.
 
       Web Technologies - HTML, CSS, JavaScript, React JS, Angular JS, jQuery, Bootstrap.
-
+      
       Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
   # Experience
@@ -182,17 +182,7 @@ params:
           enable: true
           name: "View the project"
           url: "https://example.com"
-        content: I have worked as a Programmer Analyst at Cognizant Technology Solutions for 1+ years. I have been contributory in developing and maintaining websites according to the requirements of the client. 
-        My accomplishments include-
-
-•	Deployed an employee database management platform to create and store data of employees
-
-•	Designed a client-side server to control data and developed user interface to access cached data
-
-•	Conducted Testing on storing emergency and personal profile of employees of an organization resulting in 15% improvement in application response
-•	Hands-on upskilled in Java Programming, Spring framework, Angular and MySQL
-
-•	Provided website support and simultaneously hands-on upskilled in Advance Java Programming using Spring framework and Junit testing
+        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       - job: "Freelancer Software Developer"
         company: "Amazon"
