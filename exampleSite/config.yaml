@@ -176,12 +176,12 @@ params:
     items:
       - job: "Programmer Analyst"
         company: "Cognizant"
-        companyUrl: "https://www.cognizant.com/us/en?cid=pse1773996020001-CMP-005522&utm_term=cognizant&gad_source=1&gclid=CjwKCAiAi6uvBhADEiwAWiyRdsygukw0Ol3D9JwBvCu8sX3qL-MqbvQ905a1tNXX-vDdrd0XEvLj1hoCh9AQAvD_BwE"
+        companyUrl: "https://example.com"
         date: "Feb 2021 - Aug 2022"
         featuredLink:
           enable: true
-        #  name: "View the project"
-        # url: "https://example.com"
+          name: "View the project"
+          url: "https://example.com"
         content: I have worked as a Programmer Analyst at Cognizant Technology Solutions for 1+ years. I have been contributory in developing and maintaining websites according to the requirements of the client. 
         My accomplishments include-
 
@@ -195,15 +195,15 @@ params:
 •	Provided website support and simultaneously hands-on upskilled in Advance Java Programming using Spring framework and Junit testing
 
       - job: "Freelancer Software Developer"
-        company: "Freelancing"
-       # companyUrl: "https://example.com"
-        date: "May 2020 - Jan 2021"
+        company: "Amazon"
+        companyUrl: "https://example.com"
+        date: "May 2020 - Dec 2021"
         featuredLink:
           enable: true
-          url: "https://www.azistaindustries.com//"
+          url: "https://example.com"
         info:
           enable: true
-          content: I worked as a freelance software developer for more than one year as a freelancer.
+          content: I worked as a software developer for more than one year in Amazon.
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
@@ -220,7 +220,7 @@ params:
           enable: true
           url: "https://example.com"
         content: |
-          I am currently working as a  freelancer software developer in India for a ye. I am currently working on a project that will be used to help people find the best way to get around the city.
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
