@@ -169,50 +169,45 @@ params:
 
       Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
-  # Experience
-  experience:
-    enable: true
-    # title: "xyz"
-    items:
-      - job: "Programmer Analyst"
-        company: "Cognizant"
-        companyUrl: "https://www.cognizant.com/us/en?cid=pse1773996020001-CMP-005522&utm_term=cognizant&gad_source=1&gclid=CjwKCAiAi6uvBhADEiwAWiyRdsygukw0Ol3D9JwBvCu8sX3qL-MqbvQ905a1tNXX-vDdrd0XEvLj1hoCh9AQAvD_BwE"
-        date: "Feb 2021 - Aug 2022"
-        featuredLink:
-          enable: true
-        #  name: "View the project"
-        # url: "https://example.com"
-        content: I have worked as a Programmer Analyst at Cognizant Technology Solutions for 1+ years. I have been contributory in developing and maintaining websites according to the requirements of the client. 
-        My accomplishments include-
+experience:
+  enable: true
+  items:
+    - job: "Programmer Analyst"
+      company: "Cognizant"
+      companyUrl: "https://www.cognizant.com/us/en?cid=pse1773996020001-CMP-005522&utm_term=cognizant&gad_source=1&gclid=CjwKCAiAi6uvBhADEiwAWiyRdsygukw0Ol3D9JwBvCu8sX3qL-MqbvQ905a1tNXX-vDdrd0XEvLj1hoCh9AQAvD_BwE"
+      date: "Feb 2021 - Aug 2022"
+      featuredLink:
+        enable: true
+      content: |
+        I have worked as a Programmer Analyst at Cognizant Technology Solutions for 1+ years. I have been contributory in developing and maintaining websites according to the requirements of the client. 
+        My accomplishments include:
 
-•	Deployed an employee database management platform to create and store data of employees
+        • Deployed an employee database management platform to create and store data of employees.
 
-•	Designed a client-side server to control data and developed user interface to access cached data
+        • Designed a client-side server to control data and developed a user interface to access cached data.
 
-•	Conducted Testing on storing emergency and personal profile of employees of an organization resulting in 15% improvement in application response
-•	Hands-on upskilled in Java Programming, Spring framework, Angular and MySQL
+        • Conducted Testing on storing emergency and personal profile of employees of an organization resulting in a 15% improvement in application response.
 
-•	Provided website support and simultaneously hands-on upskilled in Advance Java Programming using Spring framework and Junit testing
+        • Hands-on upskilled in Java Programming, Spring framework, Angular, and MySQL.
 
-      - job: "Freelancer Software Developer"
-        company: "Freelancing"
-       # companyUrl: "https://example.com"
-        date: "May 2020 - Jan 2021"
-        featuredLink:
-          enable: true
-          url: "https://www.azistaindustries.com//"
-         # content: I worked as a freelance software developer for more than one year as a freelancer.
-        content: |
-          I worked as a freelance software developer for more than one year as a freelancer.
-          I transformed a product-based corporation's online presence by overhauling their e-commerce platform with React JS.
+        • Provided website support and simultaneously hands-on upskilled in Advance Java Programming using Spring framework and Junit testing.
+
+    - job: "Freelancer Software Developer"
+      company: "Freelancing"
+      date: "May 2020 - Jan 2021"
+      featuredLink:
+        enable: true
+        url: "https://www.azistaindustries.com/"
+      content: |
+        I worked as a freelance software developer for more than one year as a freelancer.
+        I transformed a product-based corporation's online presence by overhauling their e-commerce platform with React JS.
 
         • Utilized the fetch API to communicate with backend services, ensuring secure data transmission during online transactions.
 
-        • Improved transaction security and fostered customer trust through the integration of secure payment gateways using Spring
- MVC, contributing to a 30% rise in successful transactions.
+        • Improved transaction security and fostered customer trust through the integration of secure payment gateways using Spring MVC, contributing to a 30% rise in successful transactions.
 
         • Boosted user engagement by 25% through the implementation of visually appealing components for the product catalog.
-         
+
      # - job: "Junior Software Developer"
       #  company: "Apple"
        # companyUrl: "https://example.com"
