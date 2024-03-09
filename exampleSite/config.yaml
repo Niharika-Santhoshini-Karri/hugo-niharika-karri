@@ -169,8 +169,10 @@ params:
 
       Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
+#Experience
 experience:
   enable: true
+  title: "Experience"
   items:
     - job: "Programmer Analyst"
       company: "Cognizant"
@@ -178,7 +180,7 @@ experience:
       date: "Feb 2021 - Aug 2022"
       featuredLink:
         enable: true
-      content: |
+      content: |-
         I have worked as a Programmer Analyst at Cognizant Technology Solutions for 1+ years. I have been contributory in developing and maintaining websites according to the requirements of the client. 
         My accomplishments include:
 
@@ -198,7 +200,7 @@ experience:
       featuredLink:
         enable: true
         url: "https://www.azistaindustries.com/"
-      content: |
+      content: |-
         I worked as a freelance software developer for more than one year as a freelancer.
         I transformed a product-based corporation's online presence by overhauling their e-commerce platform with React JS.
 
@@ -237,7 +239,6 @@ experience:
      #   companyUrl: "https://example.com"
       #  date: "Feb 2016 - Mar 2017"
       #  content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-#
   # Education
   education:
     enable: true
