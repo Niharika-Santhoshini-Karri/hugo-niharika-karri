@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Niharika Santhoshini Karri"
 theme: hugo-profile
 
 outputs:
@@ -169,70 +169,29 @@ params:
       
       Tools and Services - Git, Windows, Microsoft Office, SASS, Eclipse IDE, Lucid chart, Slack, Visio, Apache Tomcat.
 
-  # Experience
+    # Experience
   experience:
     enable: true
-    # title: "xyz"
+    # title: "Custom Name"
     items:
       - job: "Programmer Analyst"
         company: "Cognizant"
-        companyUrl: "https://example.com"
-        date: "Feb 2021 - Aug 2022"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        date: "February 2021 - August 2022"
+        content: |-
+          - Architected an employee database platform, adeptly integrating data creation and storage processes using Spring Boot.
+          - Deployed intuitive React.js user interface, integrating AJAX calls to ensure real-time communication with backend APIs.
+          - Led system optimization, simulated scenarios to evaluate performance, culminating in a 15% boost in application response.
+          - Implemented RESTful APIs, seamlessly connecting the Spring Boot backend with the dynamic React.js frontend for efficient data flow and synchronization.
+          - Executed stringent data integrity checks, curbing inconsistencies, and enhancing error resilience with website maintenance.
 
       - job: "Freelancer Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "May 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        company: "Azista"
+        date: "May 2020 - December 2021"
+        content: |-
+          - Transformed a product-based corporation online presence by overhauling their e-commerce platform with React JS.
+          - Utilized the fetch API to communicate with backend services, ensuring secure data transmission during online transactions.
+          - Improved transaction security and fostered customer trust through the integration of secure payment gateways using Spring MVC, contributing to a 30% rise in successful transactions.
+          - Boosted user engagement by 25% through the implementation of visually appealing components for the product catalog.
 
   # Education
   education:
