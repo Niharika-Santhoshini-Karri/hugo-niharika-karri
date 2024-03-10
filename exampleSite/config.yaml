@@ -262,8 +262,7 @@ params:
 
       - title:  Car Rental Service Agency
         content: |-
-         - Developed a Car Rental Service Agency using JavaFX, implementing streamlined operations through the incorporation of
- MVC architecture and JDBC connectivity.
+         - Developed a Car Rental Service Agency using JavaFX, implementing streamlined operations through the incorporation of MVC architecture and JDBC connectivity.
          - Devised sophisticated CRUD functionalities, enabling users to select, reserve, and oversee vehicles, with availability updates.
          - Ensured a secure login mechanism and intuitive dashboard for user-friendly navigation.
          - Created responsive pages for streamlined vehicle management, booking, customer records, and rental history
