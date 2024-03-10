@@ -263,57 +263,79 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title:  Plasma Donation Management System
+        content: |-
+        - Deployed a Java Swing Plasma Donation System with Oracle SQL for robust data management.
+        - Implemented Transitory Software using geospatial algorithms for precise plasma donor localization.
+        - Unified plasma centers, hospitals, and NGOs, reducing coordination efforts by 70%.
+      image: /images/plasma.jpg
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: View Project
+          link: https://github.com/Niharika-Santhoshini-Karri/FinalProject
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "Java Swing"
+          - "oracle SQL"
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title:  Forecasting Game Triumphs, A Google Play Data Study
+        content: 
+        image: /images/playstore.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          name: View Project
+          link: https://medium.com/@karri.n/data-cleaning-feature-selection-modeling-and-interpretability-using-classification-models-48086e3d98b6
+          badges:
+          - "Python"
+          - "TensorFlow"
+          - "Keras"
+          - "Machine Learning"
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title:  Movie Streaming Management System
+        content: |-
+        - Developed online video streaming platform enabling personalized watchlists and user subscriptions.
+        - Optimized data distribution with TMDB API, reducing execution time by 30%.
+      - Engineered a user-centric platform fostering content customization and seamless interaction. 
+
+         image: /images/projects/yelp.jpg
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: View Project
+          link: https://github.com/Niharika-Santhoshini-Karri/INFO6150_FinalProject
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "MongoDB"
+          - "React JS"
+          - "Node JS"
+
+      - title:  Car Rental Service Agency
+        content: |-
+         - Developed a Car Rental Service Agency using JavaFX, implementing streamlined operations through the incorporation of
+ MVC architecture and JDBC connectivity.
+         - Devised sophisticated CRUD functionalities, enabling users to select, reserve, and oversee vehicles, with availability updates.
+         - Ensured a secure login mechanism and intuitive dashboard for user-friendly navigation.
+         - Created responsive pages for streamlined vehicle management, booking, customer records, and rental history
+          image: /images/carRental.png
+        featured:
+          name: View Project
+          link: https://github.com/Niharika-Santhoshini-Karri/OOD_Project
+        badges:
+          - "Java FX"
+          - "Scene Builder"
+          - "MySQL"
+
+      - title: " Propensity Score Matching Analysis for Treatment Effect Estimation"
+        content: Implemented a comprehensive retail analytics project focusing on U.S. shopping sales forecasting using machine learning techniques and hyperparameter optimization, achieving precise sales predictions with an XGBoost model that demonstrated high accuracy and a robust R-squared value.
+        image: /images/propensity.jpg
+        featured:
+          name: View Project
+          link: https://medium.com/@karri.n/data-cleaning-feature-selection-modeling-and-interpretability-using-classification-models-48086e3d98b6
+        badges:
+          - "Python"
+          - "Deep Learning"
+          - "Causal Inference"
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    content: My inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you!
+    email: karri.n@northeastern.edu
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -322,18 +344,9 @@ params:
     #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Niharika-Santhoshini-Karri
+      linkedin: https://www.linkedin.com/in/niharika-santhoshini-karri/
 
   # List pages like blogs and posts
   listPages:
