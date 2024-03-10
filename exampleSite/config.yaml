@@ -247,9 +247,10 @@ params:
 
       - title:  Movie Streaming Management System
         content: |-
+
         - Developed online video streaming platform enabling personalized watchlists and user subscriptions.
         - Optimized data distribution with TMDB API, reducing execution time by 30%.
-      - Engineered a user-centric platform fostering content customization and seamless interaction. 
+        - Engineered a user-centric platform fostering content customization and seamless interaction. 
 
          image: /images/projects/yelp.jpg
         featured:
@@ -266,7 +267,8 @@ params:
          - Devised sophisticated CRUD functionalities, enabling users to select, reserve, and oversee vehicles, with availability updates.
          - Ensured a secure login mechanism and intuitive dashboard for user-friendly navigation.
          - Created responsive pages for streamlined vehicle management, booking, customer records, and rental history
-          image: /images/carRental.png
+          
+        image: /images/carRental.png
         featured:
           name: View Project
           link: https://github.com/Niharika-Santhoshini-Karri/OOD_Project
