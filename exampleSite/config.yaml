@@ -1,4 +1,12 @@
-Here's the corrected YAML file with consistent indentation:
+It looks like your YAML configuration is correctly indented. However, there are a few minor issues and improvements you might consider:
+
+1. The `school name` field in the education section should be corrected to `school_name` (with an underscore instead of a space).
+2. The `Paginate` key should be corrected to `paginate` (lowercase).
+3. In the `hero` section, the `bottomImage` property should have its `enable` property aligned with other properties.
+4. In the `hero` section, the `button` property should have its `download` property as a boolean (`true` or `false`) instead of a string.
+5. The `contact` section can be improved by removing the `formspree` comments and the `contact.email` reference.
+
+Here's a corrected version of your YAML configuration:
 
 ```yaml
 baseURL: "https://hugo-profile.netlify.app"
@@ -15,10 +23,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+paginate: 3
 enableRobotsTXT: true
-# disqusShortname: your-disqus-shortname
-# googleAnalytics: G-MEASUREMENT_ID
 
 markup:
   goldmark:
@@ -42,20 +48,9 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   favicon: "/fav.png"
-
   useBootstrapCDN: false
-
   mathjax: false
-
   animate: true
-
-  theme:
-
-  font:
-    fontSize: 1rem
-    fontWeight: 400
-    lineHeight: 1.5
-    textAlign: left
 
   navbar:
     align: ms-auto
@@ -135,13 +130,141 @@ params:
         date: "May 2020 - December 2021"
         content: |-
           - Transformed a product-based corporation online presence by overhauling their e-commerce platform with React JS.
-          - Utilized the fetch API to communicate with backend services, ensuring secure data transmission during online transactions.
+          - Utilized the fetch
+
+ API to communicate with backend services, ensuring secure data transmission during online transactions.
           - Improved transaction security and fostered customer trust through the integration of secure payment gateways using Spring MVC, contributing to a 30% rise in successful transactions.
           - Boosted user engagement by 25% through the implementation of visually appealing components for the product catalog.
 
   education:
     enable: true
-    index: false
     items:
       - title: "Masters in Information Systems"
-        school name: "Northeastern University,
+        school_name: "Northeastern University, Boston"
+        date: "2022 - 2024"
+        GPA: "3.67 out of 4.0"
+        content: |-
+          Relevant Coursework:
+            - Application Engineering and Development, Data Management and Database design, Data Science Methods, and Tools, Web Designing and User Experience, Software Quality Control and Design.
+      - title: "Bachelor of Technology in Civil Engineering"
+        school_name: "Vellore Institute of Technology"
+        date: "2017 - 2021"
+        GPA: "8.71 out of 10.0"
+        content: |-
+          Relevant Coursework:
+            - Problem-solving and Object-oriented Programming, Statistics for Engineers, Java Programming.
+
+projects:
+  enable: true
+  items:
+    - title: Plasma Donation Management System
+      content: |-
+        - Deployed a Java Swing Plasma Donation System with Oracle SQL for robust data management.
+        - Implemented Transitory Software using geospatial algorithms for precise plasma donor localization.
+        - Unified plasma centers, hospitals, and NGOs, reducing coordination efforts by 70%.
+      image: /images/plasma.jpg
+      featured:
+        name: View Project
+        link: https://github.com/Niharika-Santhoshini-Karri/FinalProject
+      badges:
+        - "Java Swing"
+        - "oracle SQL"
+
+    - title: Forecasting Game Triumphs, A Google Play Data Study
+      content: |-
+        - Analyzed Google Play Store data to forecast game success using Python, TensorFlow, and Keras.
+      image: /images/playstore.png
+      featured:
+        name: View Project
+        link: https://medium.com/@karri.n/data-cleaning-feature-selection-modeling-and-interpretability-using-classification-models-48086e3d98b6
+      badges:
+        - "Python"
+        - "TensorFlow"
+        - "Keras"
+        - "Machine Learning"
+
+    - title: Movie Streaming Management System
+      content: |-
+        - Developed online video streaming platform enabling personalized watchlists and user subscriptions.
+        - Optimized data distribution with TMDB API, reducing execution time by 30%.
+        - Engineered a user-centric platform fostering content customization and seamless interaction. 
+      image: /images/projects/yelp.jpg
+      featured:
+        name: View Project
+        link: https://github.com/Niharika-Santhoshini-Karri/INFO6150_FinalProject
+      badges:
+        - "MongoDB"
+        - "React JS"
+        - "Node JS"
+
+    - title: Car Rental Service Agency
+      content: |-
+        - Developed a Car Rental Service Agency using JavaFX, implementing streamlined operations through the incorporation of MVC architecture and JDBC connectivity.
+        - Devised sophisticated CRUD functionalities, enabling users to select, reserve, and oversee vehicles, with availability updates.
+        - Ensured a secure login mechanism and intuitive dashboard for user-friendly navigation.
+        - Created responsive pages for streamlined vehicle management, booking, customer records, and rental history.
+      image: /images/carRental.png
+      featured:
+        name: View Project
+        link: https://github.com/Niharika-Santhoshini-Karri/OOD_Project
+      badges:
+        - "Java FX"
+        - "Scene Builder"
+        - "MySQL"
+
+    - title: Propensity Score Matching Analysis for Treatment Effect Estimation
+      content: |-
+        - Implemented a comprehensive retail analytics project focusing on U.S. shopping sales forecasting using machine learning techniques and hyperparameter optimization, achieving precise sales predictions with an XGBoost model that demonstrated high accuracy and a robust R-squared value.
+      image: /images/propensity.jpg
+      featured:
+        name: View Project
+        link: https://medium.com/@karri.n/data-cleaning-feature-selection-modeling-and-interpretability-using-classification-models-48086e3d98b6
+      badges:
+        - "Python"
+        - "Deep Learning"
+        - "Causal Inference"
+
+contact:
+  enable: true
+  content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+  email: gurusabarisha@gmail.com
+  btnName: Mail me
+
+footer:
+  recentPosts:
+    path: "blogs"
+    count: 3
+    title: Recent Posts
+    enable: true
+    disableFeaturedImage: false
+  socialNetworks:
+    github: https://github.com
+    linkedin: https://linkedin.com
+    twitter: https://twitter.com
+    instagram: https://instagram.com
+    facebook: https://facebook.com
+
+listPages:
+  disableFeaturedImage: false
+
+singlePages:
+  readTime:
+    enable: true
+    content: "min read"
+  scrollprogress:
+    enable: true
+
+terms:
+  read: "Read"
+  toc: "Table Of Contents"
+  copyright: "All rights reserved"
+  pageNotFound: "Page not found"
+  emailText: "Check out this site"
+
+datesFormat:
+  article: "Jan 2, 2006"
+  articleList: "Jan 2, 2006"
+  articleRecent: "Jan 2, 2006"
+
+#customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
