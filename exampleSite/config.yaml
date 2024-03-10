@@ -201,23 +201,20 @@ params:
     index: false
     items:
       - title: "Masters in Information Systems"
-        school:
-          name: "Northeastern University, Boston"
+        school name: "Northeastern University, Boston"
         date: "2022 - 2024"
         GPA: "3.67 out of 4.0"
         content: |-
           Relevant Coursework:
-            - Application Engineering and Development, Data Management and Database design, Data Science
- Methods, and Tools, Web Designing and User Experience, Software Quality Control and Design.
+            - Application Engineering and Development, Data Management and Database design, Data Science Methods, and Tools, Web Designing and User Experience, Software Quality Control and Design.
       - title: "Bachelor of Technology in Civil Engineering"
-        school:
-          name: "Vellore Institute of Technology"
+        school name: "Vellore Institute of Technology"
         date: "2017 - 2021"
         GPA: "8.71 out of 10.0"
         content: |-
           Relevant Coursework:
-            -  Problem-solving and Object-oriented Programming, Statistics for Engineers, Java Programming.
-            
+            - Problem-solving and Object-oriented Programming, Statistics for Engineers, Java Programming.
+
   # Achievements
   achievements:
     enable: true
